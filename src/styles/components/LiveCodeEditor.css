@@ -1,0 +1,74 @@
+.live-provider {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+.live-editor-container {
+  flex: 1;
+  padding: 10px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+}
+
+.live-editor {
+  font-size: 14px;
+  line-height: 1.6;
+  flex: 1;
+  display: flex;
+  overflow-y: auto;
+  background-color: rgb(30, 30, 30);
+  border-radius: 6px;
+}
+.live-editor pre {
+  flex: 1;
+  overflow: auto;
+}
+
+.live-preview {
+  flex: 1;
+  padding: 10px;
+  /* background-color: #ccc; */
+  display: flex;
+}
+
+.live-error {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background-color: #f26343;
+  width: 100%;
+  color: #fff;
+  line-height: 32px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* background-color: #fff; */
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0 0;
+  overflow: auto;
+}
+.view-result {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  /* background-color: rgb(39, 40, 34); */
+  overflow: auto;
+}
+.view-result h1 {
+  color: #fff;
+  padding: 10px;
+}

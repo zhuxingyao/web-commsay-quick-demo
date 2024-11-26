@@ -1,0 +1,58 @@
+.header {
+	display: flex;
+	height: 50px;
+	padding: 10px 20px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03),0 1px 6px -1px rgba(0, 0, 0, 0.02),0 2px 4px 0 rgba(0, 0, 0, 0.02);
+	align-items: center;
+	z-index: 1000;
+}
+.header-logo {
+	height: 30px;
+	width: auto;
+}
+.header-title {
+	font-weight: 500;
+	margin: 0 20px;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+}
+.header-title .header-user {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.main {
+	display: flex;
+	flex: 1;
+	overflow: hidden;
+}
+
+.content {
+	flex: 1;
+	padding: 10px;
+	display: flex;
+	position: relative;
+	overflow-y: hidden;
+}
+
+.records {
+	width: 200px;
+	padding: 10px 0;
+	display: flex;
+}
+
+.records-container {
+	flex: 1;
+	/* padding-right: 10px; */
+	border: 1px solid #d9d9d9;
+	border-radius: 8px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+	/* background-color: rgba(0, 0, 0, 0.02); */
+	overflow-y: auto;
+}
+
+.ant-notification-notice-description {
+	max-height: 300px;
+	overflow-y: auto;
+}

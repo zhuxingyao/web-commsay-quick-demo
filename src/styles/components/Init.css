@@ -1,0 +1,29 @@
+.init-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.input-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.button-container {
+  margin: 0 0 20px;
+}
+
+.view {
+  display: flex;
+  flex: 1;
+  /* background-color: rgb(30, 30, 30);
+  color: #fff; */
+  border-radius: 8px;
+  overflow: hidden;
+}
+.view .result {
+  flex: 1;
+}
